@@ -6,7 +6,7 @@ test("creates Intern", () => {
 
 })
 
-test("get role", () => {
+test("gets the role", () => {
     const newIntern = new Intern("Jack Johnson", 10012, "jackjohnson@us.org", "jackjohnson3", "New Mexico State")
     expect(intern.getRole()).toEqual("Intern");
 });
